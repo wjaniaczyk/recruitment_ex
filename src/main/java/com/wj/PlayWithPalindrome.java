@@ -4,18 +4,7 @@ import java.util.*;
 
 public class PlayWithPalindrome {
 
-    public static void main(String[] args) {
-        String test = "8199";
-//        String test = "90000";
-//        String test  = "54321";
-//        String test  = "39828";
-//        String test = "00909";
-//        String test  = "0900009";
-//        String test  = "88776";
-        System.out.println(findMaxPalindrome(test));
-    }
-
-    public static String findMaxPalindrome(String input) {
+    public String findMaxPalindrome(String input) {
         String result;
         Set<String> palindromes = new HashSet<>();
 
